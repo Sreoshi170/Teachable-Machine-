@@ -21,24 +21,6 @@ The goal of this project is to demonstrate how AI can be easily trained without 
 
 ---
 
-## 📂 Project Structure
-
-```id="a8d2m1"
-Teachable Machine (ML+DL)/
-│
-├── model/                         # Exported trained model files
-├── labels.txt                     # Class labels
-├── keras_model.h5                # Trained deep learning model
-├── main.py / app.py              # Python integration code
-├── requirements.txt              # Dependencies
-├── README.md                     # Project documentation
-├── Capture.jpg                   # Output screenshot
-├── Outcome.mp4                   # Demo video
-└── assets/                       # Supporting files (if any)
-```
-
----
-
 ## 🧠 About Teachable Machine
 
 **Teachable Machine** is a web-based tool by Google that allows users to train machine learning models without writing extensive code.
@@ -97,20 +79,14 @@ It supports:
 
 ### 🔧 Step 1: Clone Repository
 
-```bash id="k39d2p"
+```
 git clone https://github.com/your-username/teachable-machine-project.git
 cd teachable-machine-project
 ```
 
-### 📦 Step 2: Install Requirements
+### ▶️ Step 2: Run the Application
 
-```bash id="q7n4xz"
-pip install -r requirements.txt
 ```
-
-### ▶️ Step 3: Run the Application
-
-```bash id="t5r9wl"
 python app.py
 ```
 
